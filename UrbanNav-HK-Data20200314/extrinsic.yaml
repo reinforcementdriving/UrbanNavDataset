@@ -17,10 +17,10 @@ body_T_LiDAR: !!opencv-matrix
    rows: 4
    cols: 4
    dt: d
-   data: [ 2.67949e-08, -1,  0, 0,
-           1,  2.67949e-08,  0, 0,
-           0,  0,  1, -0.28, 
-           0., 0., 0., 1 ]
+   data: [ 1, 0, 0, 0,
+           0, 1, 0, 0,
+           0, 0, 1, 0, 
+           0, 0, 0, 1]
 
 ################## Extrinsic parameter between IMU and Grount Truth (SPAN-CPT)##################
 body_T_SPAN: !!opencv-matrix
